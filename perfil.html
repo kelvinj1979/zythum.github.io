@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Zythum Beer Network</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/img/hop-icon-24.jpg">
+
+    <!--=====================================================
+        CSS PLUGINS
+        ======================================================-->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+   <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css"
+        integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous"> -->
+    <link href="assets/fontawesome-web/css/all.css" rel="stylesheet">
+        
+
+    <!-- jdSlider -->
+    <link rel="stylesheet" href="assets/css/plugins/jquery.jdSlider.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--=====================================================
+        JS PLUGINS
+        ======================================================-->
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Fontawesome 
+    <script src="https://kit.fontawesome.com/22d3587711.js" crossorigin="anonymous"></script> -->
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jdSlider -->
+    <script src="assets/js/plugins/jquery.jdSlider-latest.js"></script>
+
+    <!-- jquery Pagination -->
+    <script src="assets/js/plugins/pagination.min.js"></script>
+
+    <!-- jquery Scrollrama -->
+    <script src="assets/js/plugins/jquery.superscrollorama.js"></script>
+    <script src="assets/js/plugins/TweenMax.min.js"></script>
+
+    <!-- Scrollup -->
+    <script src="assets/js/plugins/scrollUP.js"></script>
+    <script src="assets/js/plugins/jquery.easing.js"></script>
+
+    <script src="assets/js/infinite.js"></script>
+
+</head>
+
+<body>
+
+    <!--=====================================================
+    HEADER 
+    ======================================================-->
+    <header class="container-fluid">
+
+        <div class="container p-0">
+
+            <div class="row">
+
+                <!-- LOGO -->
+                <div class="col-7 col-sm-8 col-md-5 col-lg-4 pt-1 p-xl-0">
+                    <a href="index.html">
+                        <img src="assets/img/Logobeerapp2.png" alt="Application Logo" class="img-fluid logotype">
+                    </a>
+                    
+                </div>
+
+                <!-- SEARCH -->
+                <div class="d-none d-md-block col-4 col-lg-4 p-3">
+                    <div class="input-group input-group-sm pt-2">
+                        <input type="text" class="form-control" placeholder="Find beer, brewery and friends">            
+                        <div class="input-group-append">            
+                            <span class="input-group-text pt-2"><i class="fa fa-search"></i></span>            
+                        </div>
+                    </div>
+                    
+                </div>
+
+                 <!-- MENU-->
+                <div class="col-2 col-md-1 col-lg-2 p-3">
+
+                    <!-- MENU BUTTON -->
+                    <div class="float-right pt-2">
+                        <i class="fas fa-bars lead"></i>
+                    </div>
+
+                </div>
+
+                <!-- PERFIL-->
+                <div class="col-3 col-sm-2 col-md-1 col-lg-2 p-2">
+                    <div>
+                        <a href="perfil.html">
+                            <img src="assets/img/perfil.jpeg" alt="Perfil Pic"
+                                class="img-fluid perfil_pic lead float-left pt-2 mr-1">
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="static-banner"></div>
+
+    <section class="jd-slider fade-slider">
+
+        <div class="slide-inner" style="position: relative; left: 0; top: 0;">
+
+            <ul class="slide-area">
+                
+
+                <li>
+                    <div class="img-over-banner">
+                        <img class="rounded-circle img-thumbnail" src="assets/img/perfil.jpeg" alt="">
+                    </div>
+
+                    <img src="assets/img/carousel1.png" alt="Beer images" class="img-fluid blur">  
+                                    
+                     
+                    <div class="container center font-weight-bold">
+                                                   
+                        <div class="text-banner">
+                            <h2><strong>Kelvin Jimenez</strong></h2>
+                            <h3>Kelvinj1979</h3>
+                            <div class="row">
+                                <div class="text-left col col-lg-4"><a href="mybeer.html" class="text-body">691 Total</a></div>
+                                <div class="text-left col col-lg-4"><a href="mybeer.html" class="text-body">506 Unique</a></div>                       
+                                <div class="text-left col col-lg-4"><a href="friends.html" class="text-body">20 Friends</a></div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="controller d-none">
+
+            <a class="auto" href="#">
+
+                <i class="fas fa-play fa-xs"></i>
+                <i class="fas fa-pause fa-xs"></i>
+
+            </a>
+
+            <div class="indicate-area"></div>
+
+        </div>
+
+    </section>
+
+    <br class="d-block d-md-none">
+
+    <div class="container d-block d-md-none">
+
+        <div class="input-group input-group-sm">
+
+            <input type="text" class="form-control" placeholder="Find beer, brewery and friends">
+
+            <div class="input-group-append">
+
+                <span class="input-group-text"><i class="fa fa-search"></i></span>
+
+            </div>
+        </div>
+    </div>
+    
+    <br>
+
+    <!--=====================================
+        DETAIL DATA BODY
+    ======================================-->
+    
+    <div class="container-fluid bg-light">
+
+        <div class="container">
+
+            <div class="row">
+                <!-- LEFT COLUMN MENU-->
+                <div class="col-md-3 mt-2">
+                    <div>
+                        <ul class="fa-ul">
+                            <li class="list-group-item"><h6><a href="index.html">Home</a></h6></li>
+                            <li class="list-group-item sd-active"><i class="fa-solid fa-id-card"></i>  <a href="perfil.html">My Profile</a></li>
+                            <li class="list-group-item"><i class="fa-solid fa-people-group"></i>  <a href="posting.html">My Friends</a></li>
+                            <li class="list-group-item"><i class="fa-solid fa-comments"></i>  <a href="posting.html">Recent Friend Activity</a></li>                            
+                            <li class="list-group-item"><i class="fa-solid fa-beer-mug-empty"></i>  <a href="register.html">Beer History</a></li>
+                            <li class="list-group-item"><i class="fa-solid fa-archway"></i>  <a href="index.html">Beer Places</a></li>
+                            <li class="list-group-item"><i class="fa-solid fa-computer"></i>  <a href="index.html">Account Settings</a></li>
+                            <li class="list-group-item"><i class="fa-solid fa-door-open"></i>  <a href="index.html">Logout</a></li>
+                        </ul>
+                    </div>                    
+                </div>
+
+                <!-- MID COLUMN POST-->
+                
+                <!-- GALLERY-->
+                <div class="col-md-6 p-3 bg-white div-wrapper" >
+                    <div class="row">
+                        <div class="column">
+                            <a href="posting.html">
+                                <img src="img_posting/beer6.jpg" alt="Snow" style="width:100%">
+                            </a>                          
+                        </div>
+                        <div class="column">
+                            <a href="posting.html">
+                                <img src="img_posting/beer5.jpg" alt="Snow" style="width:100%">
+                            </a>
+                        </div>
+                        <div class="column">
+                            <a href="posting.html">
+                                <img src="img_posting/beer4.jpg" alt="Snow" style="width:100%">
+                            </a>
+                        </div>
+                        <div class="column container-img">
+                            <a href="mybeer.html">
+                                <img src="img_posting/beer3.jpg" alt="Mountains" style="width:100%">
+                                <div class="text-block">
+                                    <i class="fa-solid fa-list-ul"></i>
+                                    <p>SEE ALL</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <h3><strong>Recent Activity</strong></h3>
+                    <div class="bg-white div-wrapper card box1">
+                        <!-- POST 1-->
+                        <div class="row col-12">
+                            <div class="col-2 p-2">
+                                <a href="perfil.html">
+                                <img src="assets/img/perfil2.jpg" alt=""
+                                    class="img-fluid post_pic lead float-left pt-2 mr-1"> </a>                          
+                            </div>
+                            <div class="col-10 p-2 mt-4">
+                                <span class="align-bottom">
+                                    <h5><a href="index.html">Aquiles Ortiz</a> is drinking a <a href="beer.html">La Rubina</a> by <a href="brewery.html">Birra Castello</a> at Bulky Bear Training</h5>
+                                </span>  
+                            </div>
+                        </div>
+
+                        <div class="row col-12">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="ratings col-9">
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="col-3">
+                                    <h6 class="review-count text-right">4.5/5</h6>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                        <figure class="figure mt-1">
+                            <div class="col-12 objetfit">
+                                <a href="posting.html">
+                                <img src="img_posting/beer1.jpg" class="figure-img img-fluid rounded img-fluid thumb-post" alt="A corners in a figure."></a>
+                            </div>
+                            <figcaption class="figure-caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel qui illum voluptatibus, itaque, tempore iure esse repudiandae fugit, necessitatibus beatae sint ad ipsum unde architecto dolore quam rerum quasi delectus?</figcaption>
+                        </figure> 
+                        
+                        <hr class="mb-4" style="border: 1px solid #e2be4b">
+
+                        <div class="row col-12">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="col-6">
+                                    <button type="button" class="btn btn-secondary btn-sm" data-toggle="collapse" data-target="#demo1">
+                                        <img src="assets/img/comments-xxl.png" alt="" width="15%">
+                                    </button>                                 
+                                </div>
+                                <div class="col-6">
+                                    <button type="button" class="btn btn-warning btn-sm" data-toggle="collapse" data-target="#demo">
+                                        <img src="assets/img/beercup.png" alt="" width="15%">
+                                    </button>                                
+                                </div> 
+
+                            </div>
+                        </div>
+
+                        <div class="row col-12 p-2">
+                            <div class="d-flex justify-content-between align-items-right">
+                                <div class="col-4">
+                                    2 hour ago                                
+                                </div>
+                                <div class="col-8 text-right">
+                                <a href="posting.html">View Detailed Check-in</a>                               
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div id="demo" class="row collapse col-12 p-2">
+                            <div class="d-flex justify-content-between align-items-right border">
+                                <div class="col-1 p-1 text-right">
+                                   <h6>5</h6>                                 
+                                </div>
+                                <div class="col-1 text-left">
+                                    <img  src="assets/img/beercup.png" alt="" width="100%">                                
+                                 </div>
+                                <div class="col-10 p-1">
+                                    <img src="https://untappd.akamaized.net/profile/39a78f538f5a2e68408a53c13a0bf91d_100x100.jpg" alt="" width="5%">                                
+                                    <img src="https://untappd.akamaized.net/profile/2dea0a6b96992d046502aaa702ecb4d3_100x100.jpeg" alt="" width="5%">                                
+                                    <img src="https://gravatar.com/avatar/b1af1101a6d2627c567c5331a285d665?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v3_gravatar.jpg%3Fv%3D2" alt="" width="5%">                                                                    
+                                    + 2 more...
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div id="demo1" class="row collapse col-12 p-2">
+                            
+                            <div class="col-12 p-1">
+                                <div class="media border p-3">
+                                    <img src="https://www.w3schools.com/bootstrap4/img_avatar3.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+                                    <div class="media-body">
+                                        <h6>John Doe <small><i>Posted on February 19, 2016</i></small></h6>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit officia ex sed a minima iandae tempora.</p>
+                                        <div class="media p-3">
+                                        <img src="https://www.w3schools.com/bootstrap4/img_avatar4.png" alt="Jane Doe" class="mr-3 mt-3 rounded-circle" style="width:45px;">
+                                        <div class="media-body">
+                                            <h6>Jane Doe <small><i>Posted on February 20 2016</i></small></h6>
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt mag ipsum ipsa ratione....</p>
+                                        </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                    </div>          
+            
+                
+
+                <!-- POST 2-->
+                
+                    <div class="bg-white div-wrapper card box1">
+                        <div class="row col-12">
+                            <div class="col-2 p-2">
+                                <img src="assets/img/perfil3.jpg" alt=""
+                                    class="img-fluid post_pic lead float-left pt-2 mr-1">                           
+                            </div>
+                            <div class="col-10 p-2 mt-4">
+                                <span class="align-bottom">
+                                    <h5>Grimaldy Soto is drinking an Erdinger Pikantus by Erdinger Weissbräu at The Irish Pub</h5>
+                                </span>  
+                            </div>
+                        </div>
+
+                        <div class="row col-12">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="ratings col-9">
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <div class="col-3">
+                                    <h6 class="review-count text-right">3.25/5</h6>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                        <figure class="figure mt-1">
+                            <div class="col-12 objetfit">
+                                <img src="img_posting/beer2.jpg" class="figure-img img-fluid rounded img-fluid thumb-post" alt="A corners in a figure.">
+                            </div>
+                            <figcaption class="figure-caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel qui illum voluptatibus, itaque, tempore iure esse repudiandae fugit, necessitatibus beatae sint ad ipsum unde architecto dolore quam rerum quasi delectus?</figcaption>
+                        </figure> 
+                        
+                        <hr class="mb-4" style="border: 1px solid #e2be4b">
+
+                        
+                        <div class="row col-12">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="col-6">
+                                    <button type="button" class="btn btn-secondary btn-sm" data-toggle="collapse" data-target="#demo1">
+                                        <img src="assets/img/comments-xxl.png" alt="" width="15%">
+                                    </button>                                 
+                                </div>
+                                <div class="col-6">
+                                    <button type="button" class="btn btn-warning btn-sm" data-toggle="collapse" data-target="#demo">
+                                        <img src="assets/img/beercup.png" alt="" width="15%">
+                                    </button>                                
+                                </div> 
+
+                            </div>
+                        </div>
+
+                        <div class="row col-12 p-2">
+                            <div class="d-flex justify-content-between align-items-right">
+                                <div class="col-4">
+                                    2 hour ago                                
+                                </div>
+                                <div class="col-8 text-right">
+                                <a href="#">View Detailed Check-in</a>                               
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div id="demo" class="row collapse col-12 p-2">
+                            <div class="d-flex justify-content-between align-items-right border">
+                                <div class="col-1 p-1 text-right">
+                                   <h6>5</h6>                                 
+                                </div>
+                                <div class="col-1 text-left">
+                                    <img  src="assets/img/beercup.png" alt="" width="100%">                                
+                                 </div>
+                                <div class="col-10 p-1">
+                                    <img src="https://untappd.akamaized.net/profile/39a78f538f5a2e68408a53c13a0bf91d_100x100.jpg" alt="" width="5%">                                
+                                    <img src="https://untappd.akamaized.net/profile/2dea0a6b96992d046502aaa702ecb4d3_100x100.jpeg" alt="" width="5%">                                
+                                    <img src="https://gravatar.com/avatar/b1af1101a6d2627c567c5331a285d665?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v3_gravatar.jpg%3Fv%3D2" alt="" width="5%">                                                                    
+                                    + 2 more...
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div id="demo1" class="row collapse col-12 p-2">
+                            
+                            <div class="col-12 p-1">
+                                <div class="media border p-3">
+                                    <img src="https://www.w3schools.com/bootstrap4/img_avatar3.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+                                    <div class="media-body">
+                                        <h6>John Doe <small><i>Posted on February 19, 2016</i></small></h6>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit officia ex sed a minima iandae tempora.</p>
+                                        <div class="media p-3">
+                                        <img src="https://www.w3schools.com/bootstrap4/img_avatar4.png" alt="Jane Doe" class="mr-3 mt-3 rounded-circle" style="width:45px;">
+                                        <div class="media-body">
+                                            <h6>Jane Doe <small><i>Posted on February 20 2016</i></small></h6>
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt mag ipsum ipsa ratione....</p>
+                                        </div>
+                                        </div> 
+                                    </div>
+                                    </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+
+                    <div class="process-comm">
+                        <div id="loader">
+                            <img src="assets/img/example_loading.gif">
+                            LOADING...
+                        </div>
+                    </div>
+                                     
+                </div>
+
+                <!-- RIGTH COLUMN -->
+                <div class="d-none d-lg-block col-md-3 p-3 ml-0 bg-white div-wrapper">
+                    <!-- PERFIL SUMMARY -->
+                    <div class="perfil-summary">
+                        <div>
+                            
+                            <div class="box">
+                                <div class="container-fluid p-0">
+                                    <h3>Top Beers</h3>
+                                    <div class="item">
+                                        <a href="/b/erdinger-weissbrau-erdinger-pikantus/1900" class="track-click"
+                                            data-track="sidebar" data-href=":beer/toplist">
+                                            <p class="logo">
+                                                <img src="assets/img/beer-edinger.jpeg"
+                                                    alt="Erdinger Pikantus label" width="160%">
+                                            </p>
+                                            <p class="text">
+                                                <span class="name">Erdinger Pikantus</span>
+                                                <span class="brewery">Erdinger Weissbräu</span>
+                                            </p>
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="/b/abita-brewing-company-turbodog/5047" class="track-click"
+                                            data-track="sidebar" data-href=":beer/toplist">
+                                            <p class="logo">
+                                                <img src="assets/img/beer-turbodog.jpeg"
+                                                    alt="Turbodog label" width="160%">
+                                            </p>
+                                            <p class="text">
+                                                <span class="name">Turbodog</span>
+                                                <span class="brewery">Abita Brewing Company</span>
+                                            </p>
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="/b/fuller-s-brewery-gale-s-hsb/65555" class="track-click"
+                                            data-track="sidebar" data-href=":beer/toplist">
+                                            <p class="logo">
+                                                <img src="assets/img/beer-gale.jpeg"
+                                                    alt="Gale's HSB label" width="160%">
+                                            </p>
+                                            <p class="text">
+                                                <span class="name">Gale's HSB</span>
+                                                <span class="brewery">Fuller's Brewery</span>
+                                            </p>
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="/b/fuller-s-brewery-golden-pride/15068" class="track-click"
+                                            data-track="sidebar" data-href=":beer/toplist">
+                                            <p class="logo">
+                                                <img src="assets/img/beer-golden.jpeg"
+                                                    alt="Golden Pride label" width="160%">
+                                            </p>
+                                            <p class="text">
+                                                <span class="name">Golden Pride</span>
+                                                <span class="brewery">Fuller's Brewery</span>
+                                            </p>
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="/b/schneider-weisse-g-schneider-and-sohn-aventinus-tap06/16851"
+                                            class="track-click" data-track="sidebar" data-href=":beer/toplist">
+                                            <p class="logo">
+                                                <img src="assets/img/beer-avent.jpeg"
+                                                    alt="Aventinus (TAP06) label" width="160%">
+                                            </p>
+                                            <p class="text">
+                                                <span class="name">Aventinus (TAP06)</span>
+                                                <span class="brewery">Schneider Weisse G. Schneider &amp; Sohn</span>
+                                            </p>
+                                        </a>
+                                    </div>
+                                    <p class="more"><a class="track-click" data-track="sidebar"
+                                            data-href=":user/beerhistory" href="/user/Liceysta/beers">See All Beers</a></p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <br>
+
+<!--=====================================
+FOOTER
+======================================-->
+
+    <footer class="container-fluid py-5 d-none d-md-block">
+        
+        <div class="container">
+            
+            <div class="row">
+
+                <!-- LOGO -->
+                <div class="col-6 col-sm-8 col-md-7 col-xl-6 pt-1 p-xl-0">
+
+                    <a href="index.html">
+
+                        <img src="assets/img/Logobeerapp2.png" alt="Application Logo" class="img-fluid logotype" width="45%">
+
+                    </a>
+
+                </div>
+
+                <div class="d-none d-lg-block col-lg-1 col-xl-2"></div>
+
+                <!-- NEWLETTER -->
+
+                <div class="col-md-5 col-lg-5 col-xl-4 pt-3">
+                    
+                    <h6 class="text-white">Inscríbete en nuestro newletter:</h6>
+
+                    <div class="input-group my-4">
+                        
+                        <input type="text" class="form-control" placeholder="Ingresa tu Email">
+
+                        <div class="input-group-append">
+                            
+                            <span class="input-group-text bg-dark text-white">Inscribirse</span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="p-0 w-100 pt-2">
+                    
+                        <ul class="d-flex justify-content-left p-0">
+                            
+                            <li>
+                                <a href="https://www.facebook.com" target="_blank">
+                                    <i class="fab fa-facebook-f lead text-white mr-3 mr-sm-4"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-instagram lead text-white mr-3 mr-sm-4"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter lead text-white mr-3 mr-sm-4"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-youtube lead text-white mr-3 mr-sm-4"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-snapchat-ghost lead text-white mr-3 mr-sm-4"></i>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="assets/js/script.js" async defer></script>
+
+</body>
+
+</html>
